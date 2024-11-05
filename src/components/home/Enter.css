@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+
+
+:root{
+    --blue: #060a90;
+  --white: #fff;
+  --pink: #FDD4D4;
+  --red: #f42829;
+  --gray: #4a4755;
+  --f9: #f9f9f9;
+}
+
+
+.home {
+    max-width: 375px;
+    height: 733vh;
+    margin: auto;
+    padding: 60px 24px;
+
+}
+
+.wel {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 132%;
+    letter-spacing: 1%;
+    text-align: center;
+    color: #060a90;
+
+}
+
+.img_ittat {
+    width: 124px;
+    /* height: 84px; */
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 24px;
+}
+
+.gif {
+    width: 259px;
+    /* height: 172px; */
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.home > button{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 12px;
+    font-size: 25px;
+    text-align: center;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
